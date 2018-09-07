@@ -1,0 +1,24 @@
+Les 1
+
+
+Bekende termen die je moet leren
+
+H - Hyper
+T - Text
+T - Transport
+P - Proticol
+
+H - Hyper
+T - Text
+M - Makrup
+L - Language
+
+CLient -> request -> Server
+CLient <- response <- Server
+
+Frontend ; Is bijv. html en css. De eindgerbuiker heeft interacie met de front-end
+Backend ; bevat al de logica. De programmeur heeft interactie met de Back-end
+
+
+Versie-beheer Kan je de versiers mee beheren. Zo kan je terug naar de oude "build" van jouw site
+Sublime text 3 is gewoon de beste maar kost goed veel geld
