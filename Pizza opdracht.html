@@ -1,0 +1,92 @@
+<html>
+
+	<body background= 'depositphotos_106419976-stock-illustration-cartoon-pizza-pattern.jpg'>
+
+		<script>
+
+				//Pizaa prijzen
+
+				const PSmall = 8.50;
+				const PMed = 10.50;
+				const PLarge = 12.50;
+
+
+
+
+							var VoorAchter = prompt ('Wat is uw voor en achternaam?')
+							var Smalles = prompt ('Hoeveel kleine pizzas wilt u?');
+							var Meds = prompt ('Hoeveel medium pizzas wilt u?');
+							var Larges = prompt ('Hoeveel grote pizzas wilt u?');
+
+
+			console.log (Smalles)
+			console.log (Meds)
+			console.log (Larges)
+
+
+							var UitSmall = (PSmall * Smalles)
+							var UitMed = (PMed * Meds)
+							var UitLarge = (PLarge * Larges)
+							var Totaal = (UitSmall + UitMed + UitLarge)
+
+	 		console.log (UitSmall)
+			console.log (UitMed)
+			console.log (UitLarge)
+			console.log (Totaal)
+
+
+							document.write ("Super Ultra Fun Pizza Calculator")
+										document.write("<br />");
+
+							document.write ("Besteling van " + VoorAchter)
+							document.write ('<h1>' + (" ") + "Pizzas besteld: " + '</h1>');
+
+
+										document.write("<br />");
+										document.write("<br />");
+
+							document.write ('<h1>' + "Een Small pizza kost $" + (PSmall) + '</h1>');
+
+							document.write ('<h1>' + "Een Medium pizza kost $"  + (PMed) +'</h1>');
+
+							document.write ('<h1>' + "Een grote pizza kost $" + (PLarge) + '</h1>');
+
+
+
+
+
+										document.write("<br />");
+										document.write("<br />");
+										document.write("<br />");
+							document.write ((Smalles + (" ") + "Kleine pizzas in uw winkelmant") + ",   $" + (PSmall) + " x " + (Smalles) + " Stuks is in totaal $" + UitSmall);
+
+ 			
+							document.write("<br />");
+									document.write ((Meds + (" ") + "Medium pizzas in uw winkelmant") + ",   $" + (PMed) + " x " + (Meds) + " Stuks is in totaal $" + UitMed);
+
+
+							document.write("<br />");
+									document.write ((Larges + (" ") + "Grote pizzas in uw winkelmant") + ",   $" + (PLarge) + " x " + (Larges) + " Stuks is in totaal $" + UitLarge);
+
+
+
+										document.write("<br />");
+										document.write("<br />");
+										document.write("<br />");
+										document.write("<br />");
+
+
+									document.write ('<h1>' + "Uw totaal is $" + Totaal + '</h1>');
+
+									function blinkje(){
+									alert(VoorAchter + ", De totale pizza kost $" + Totaal);
+								}
+									window.setTimeout(blinkje, 1200)
+
+
+
+	</script>
+
+	</body>
+
+</html>
